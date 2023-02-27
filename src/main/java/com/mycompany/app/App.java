@@ -5,12 +5,12 @@ package com.mycompany.app;
  */
 public class App {
 
-    private static final String MESSAGE = "I Love Jenkins";
+    private static final String MESSAGE = "I love Jenkins";
 
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println("Modified from local project !");
+        System.out.println("Jenkins is awesome");
     }
 
     public String getMessage() {
