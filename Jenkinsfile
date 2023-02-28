@@ -21,6 +21,12 @@ pipeline {
       }
     }    
     
+    stage('Dummy') {
+      steps {
+        echo 'Meaningless statement to verify this'
+      }
+    }
+    
     stage('Deploy') {
       steps {
         sh 'java -jar target/my-app-1.0-SNAPSHOT.jar'
